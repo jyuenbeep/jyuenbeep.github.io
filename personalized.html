@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Draw Your Own</title>
+    <meta charset="utf-8"/>
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <!-- link the webpage's stylesheet -->
+	  <link rel="stylesheet" href="/style.css" />
+
+	  <!-- link the webpage's JavaScript file -->
+	  <script src="/script.js" defer></script>
+  </head>
+  <body>
+        <!-- navbar -->
+        <header>
+        <div class = "navbar">
+          <ol>
+            <li id = "dropItem"><a href="index.html" id = "current"><p>HOME</p></a></li>
+            <li id = "dropItem"><p>ABOUT</p>
+              <div id = "dropdown">
+                <a href = "mission.html">OUR MISSION</a>
+                <a href = "about.html">ABOUT ME</a>
+                <a href = "faq.html">FAQ</a>
+              </div>
+            </li>
+            <li id = "dropItem"><p>PHOTO ALBUM</p>
+              <div id = "dropdown">
+                <a href = "photos.html">PHOTO ALBUM</a>
+                <a href = "personalized.html">DRAW YOUR OWN</a>
+              </div>
+            </li>
+            <p id = "mainHead">Walkable Cities</p>
+          </ol>
+        </div>
+      </header>
+        <!-- end of navbar -->
+    <div class = "row drawing">
+      <div>
+        <h1>Draw Your Own City Plan!</h1>
+      </div>
+      <div class = "column moveButtons">
+        <label>Color Picker:
+          <input type="color" value="#ff0000" id="colorChoice">
+        </label>
+      </div>
+      <div class="moveButtons">
+        <button id="eraser">ERASER</button>
+      </div>
+      <div class = "column moveButtons">
+        <button id="increaseSize">+ STROKE WIDTH</button>
+        <button id="decreaseSize">- STROKE WIDTH</button>
+      </div>
+      <div class = "moveButtons">
+        <button id="clearScreen">CLEAR</button>
+      </div>
+    </div>
+    <div class = "canvas">
+      <canvas id="can">This browser doesn't support canvas.</canvas>
+      <script src="canvas.js"></script>
+    </div>
+  </body>
+</html>

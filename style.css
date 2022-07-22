@@ -1,0 +1,255 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('fonts/Ubuntu-M.woff') format('woff');
+}
+
+@font-face {
+  font-family:'Ubuntu Mono';
+  src: url('fonts/UbuntuMono-R.woff') format('woff');
+}
+
+body {
+ background-color: #FFC971; 
+}
+
+/*.navbar {
+  width:100%;
+  background-color:seagreen;
+}*/
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+ol {
+  width:100%;
+  background-color:seagreen;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+#dropItem {
+  float:left;
+  list-style-type:none;
+}
+
+#dropItem p {
+  padding:20px;
+  font-size:20px;
+}
+
+ol {
+  position:fixed;
+  font-family: Ubuntu;
+  text-align:center;
+}
+
+a {
+  display:block;
+  text-decoration:none;
+  color:white;
+}
+
+#dropdown {
+  display:none;
+  background-color:#B48EAE;
+  font-size:15px;
+}
+
+#dropdown a {
+  padding:5px;
+}
+
+#dropItem:hover #dropdown{
+  display:block;
+}
+
+#dropItem p:hover {
+  background-color:#5FDD9D;
+}
+
+#dropdown a:hover {
+  color:#B48EAE;
+  background-color:white;
+}
+
+#mainHead {
+  font-family: 'Ubuntu Mono';
+  font-size:30px;
+}
+
+.spacing {
+  width:100%;
+  height:100px;
+  margin-top:30px;
+}
+
+img {
+width: 45vw;
+height: 30vw;
+}
+
+#back, #next {
+  font-family:'Ubuntu';
+  font-size:20px;
+  padding:5px;
+  margin:10px;
+  background-color:seagreen;
+  color:white;
+  border-radius:8px;
+  border:none;
+}
+
+#back:hover, #next:hover {
+  background-color:#5F758E;
+}
+
+.centerButtons {
+  width:100%;
+  display:flex;
+  justify-content:center;
+  background-color:#5FDD9D;
+  border-radius:8px;
+}
+
+#title {
+  padding-top:90px;
+  padding-bottom:30px;
+  text-align:center;
+  font-family:'Ubuntu';
+  letter-spacing: .2rem;
+  color:slateblue;
+  font-size:45px;
+}
+
+.mainpage {
+  text-align:center;
+  color:white;
+  font-family:'Ubuntu Mono';
+  margin-top:20px;
+  margin-left:70px;
+  margin-right:70px;
+}
+
+.mainpage h1 {
+  font-size:50px;
+  color:#8093F1;
+}
+
+.drawing {
+  padding-top:80px;
+  display:flex;
+  justify-content:center;
+  align-item:center;
+  font-family:"Ubuntu";
+}
+
+.drawing h1 {
+  font-family:"Ubuntu Mono";
+  color:#B48EAE;
+  padding-right:20px;
+}
+
+.moveButtons {
+  margin-left:10px;
+  margin-right:10px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:8px;
+  background-color:#8093F1;
+  color:white;
+  border:none;
+}
+
+.moveButtons button {
+  border:none;
+  background-color:#8093F1;
+  color:white;
+  font-family;"Ubuntu";
+}
+
+.center {
+  padding-top:100px;
+  padding-left:400px;
+  padding-right:400px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  font-family: "Ubuntu";
+  font-size:20px;
+  color:#B48EAE;
+}
+
+.center h1 {
+  font-family: "Ubuntu Mono";
+  font-size:40px;
+  padding:20px;
+  color:black;
+}
+
+.center a {
+  display:inline;
+}
+
+.album h1 {
+  font-family: "Ubuntu Mono";
+  font-size:40px;
+  padding-top:100px;
+  color:black;
+  text-align:center;
+}
+
+.album img {
+  height:250px;
+  width:300px;
+}
+
+.albumRow {
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+.albumRow p {
+  text-align:center;
+  background-color:white;
+  color:lightseagreen;
+  position:relative;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size:15px;
+  font-family:"Ubuntu";
+}
+
+#actionButton {
+  border-radius:8px;
+  background-color:palevioletred;
+  color:mintcream;
+  border:5px solid black;
+  font-family:"Ubuntu Mono";
+  font-size:30px;
+  margin-top:20px;
+  padding:10px;
+}
+
+ 
+
+
+
